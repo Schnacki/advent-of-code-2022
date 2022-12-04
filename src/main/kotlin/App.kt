@@ -13,5 +13,6 @@ fun main() {
     println("┏━━━━━━━━━━━━━━━━━━━━┓")
     println("┃ AOC 2022           ┃")
     App.solveDay(1, Day1)
+    App.solveDay(2, Day2)
     println("┗━━━━━━━━━━━━━━━━━━━━┛")
 }
