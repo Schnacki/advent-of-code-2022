@@ -1,23 +1,21 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class Day8Test {
+class Day02Test {
 
     private val input = listOf(
-        "30373",
-        "25512",
-        "65332",
-        "33549",
-        "35390"
+        "A Y",
+        "B X",
+        "C Z"
     )
 
     @Test
     fun `Part 1 with example data`() {
-        assertEquals(21, Day8.part1(input))
+        assertEquals(15, Day02.part1(input))
     }
 
     @Test
     fun `Part 2 with example data`() {
-        assertEquals(8, Day8.part2(input))
+        assertEquals(12, Day02.part2(input))
     }
 }

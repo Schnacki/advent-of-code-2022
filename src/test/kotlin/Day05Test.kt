@@ -1,7 +1,7 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class Day5Test {
+class Day05Test {
 
     private val input = listOf(
         "    [D]    ",
@@ -17,11 +17,11 @@ class Day5Test {
 
     @Test
     fun `Part 1 with example data`() {
-        assertEquals("CMZ", Day5.part1(input))
+        assertEquals("CMZ", Day05.part1(input))
     }
 
     @Test
     fun `Part 2 with example data`() {
-        assertEquals("MCD", Day5.part2(input))
+        assertEquals("MCD", Day05.part2(input))
     }
 }

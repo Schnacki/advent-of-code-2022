@@ -1,4 +1,4 @@
-object Day1 : Day {
+object Day01 : Day {
     // Unfortunately no real list deconstruction in kotlin :(
     private fun generatedAccumulatedList(input: List<String>): List<Int> = input
         .fold(listOf(0)) { cals, f -> if (f.isBlank()) cals + 0 else cals.dropLast(1) + (cals.last() + f.toInt()) }

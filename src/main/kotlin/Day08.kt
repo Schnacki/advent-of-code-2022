@@ -1,4 +1,4 @@
-object Day8 : Day {
+object Day08 : Day {
     override fun part1(input: List<String>): Int {
         val matrix = input.map(String::toCharArray)
         var visibilityCount = 0

@@ -1,6 +1,6 @@
 typealias Stack = ArrayDeque<Char>
 
-object Day5 : Day {
+object Day05 : Day {
 
     data class Move(val src: Int, val dest: Int, val amount: Int)
 

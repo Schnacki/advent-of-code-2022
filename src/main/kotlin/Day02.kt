@@ -1,8 +1,8 @@
-import Day2.Outcome.Draw
-import Day2.Outcome.Lost
-import Day2.Outcome.Won
+import Day02.Outcome.Draw
+import Day02.Outcome.Lost
+import Day02.Outcome.Won
 
-object Day2 : Day {
+object Day02 : Day {
 
     enum class Outcome {
         Won, Lost, Draw;

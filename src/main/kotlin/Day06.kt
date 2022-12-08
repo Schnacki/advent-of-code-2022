@@ -1,4 +1,4 @@
-object Day6 : Day {
+object Day06 : Day {
     private fun solveForWindowSize(input: String, size: Int) =
         input.windowed(size).indexOfFirst { it.length == it.toSet().size } + size
 

@@ -1,4 +1,4 @@
-object Day4 : Day {
+object Day04 : Day {
     private fun parseRanges(line: String): Pair<IntRange, IntRange> {
         val (f1, f2, s1, s2) = line.split(",", "-").map(String::toInt)
         return f1..f2 to s1..s2

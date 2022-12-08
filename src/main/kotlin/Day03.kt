@@ -1,4 +1,4 @@
-object Day3 : Day {
+object Day03 : Day {
 
     private fun prioritize(item: Char) = if (item.isUpperCase()) item - 'A' + 27 else item - 'a' + 1
 
