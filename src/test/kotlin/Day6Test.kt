@@ -3,7 +3,6 @@ import kotlin.test.assertEquals
 
 class Day6Test {
 
-
     @Test
     fun `Part 1 with example data`() {
         assertEquals(7, Day6.part1(listOf("mjqjpqmgbljsphdztnvjfqwrcgsmlb")))

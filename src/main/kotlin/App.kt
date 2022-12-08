@@ -25,5 +25,6 @@ fun main() {
     App.solveDay(5, Day5)
     App.solveDay(6, Day6)
     App.solveDay(7, Day7)
+    App.solveDay(8, Day8)
     println("┗━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┛")
 }
