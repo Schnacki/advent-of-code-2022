@@ -1,5 +1,4 @@
 object Day07 : Day {
-
     sealed interface Command
     object UP : Command
     object DOWN : Command

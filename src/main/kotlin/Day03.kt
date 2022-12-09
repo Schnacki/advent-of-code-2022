@@ -1,5 +1,4 @@
 object Day03 : Day {
-
     private fun prioritize(item: Char) = if (item.isUpperCase()) item - 'A' + 27 else item - 'a' + 1
 
     private fun findCommonItem(compartments: List<String>): Char =

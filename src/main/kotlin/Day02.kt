@@ -3,7 +3,6 @@ import Day02.Outcome.Lost
 import Day02.Outcome.Won
 
 object Day02 : Day {
-
     enum class Outcome {
         Won, Lost, Draw;
 

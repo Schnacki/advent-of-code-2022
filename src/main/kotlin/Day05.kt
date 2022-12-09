@@ -1,7 +1,6 @@
 typealias Stack = ArrayDeque<Char>
 
 object Day05 : Day {
-
     data class Move(val src: Int, val dest: Int, val amount: Int)
 
     private fun parseInput(input: List<String>): Pair<List<Stack>, List<Move>> {

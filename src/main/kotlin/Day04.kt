@@ -1,8 +1,8 @@
 object Day04 : Day {
-    private fun parseRanges(line: String): Pair<IntRange, IntRange> {
-        val (f1, f2, s1, s2) = line.split(",", "-").map(String::toInt)
-        return f1..f2 to s1..s2
-    }
+    private fun parseRanges(line: String): Pair<IntRange, IntRange> =
+        line.split(",", "-")
+            .map(String::toInt)
+            .let { (f1, f2, s1, s2) -> f1..f2 to s1..s2 }
 
     override fun part1(input: List<String>): Int = input
         .map(::parseRanges)
